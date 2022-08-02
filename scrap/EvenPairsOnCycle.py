@@ -1,7 +1,4 @@
-
-from typing import *
-
-def solution(A:List[int]) -> int:
+def solution(A):
   qualified_elems = []
   i = 0 
   while i < len(A):
