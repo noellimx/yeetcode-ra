@@ -1,13 +1,14 @@
 from typing import *
 
+
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         length = len(nums)
         squares = [0 for _ in range(length)]
-        
+
         l = 0
         r = length - 1
-        
+
         c = r
         while c >= 0:
             ls = nums[l] * nums[l]
